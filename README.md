@@ -242,12 +242,6 @@ The core simulation, priority calculation, resource allocation, scheduling logic
 
 AI is used as an operational analysis and explanation layer rather than as a replacement for the deterministic scheduling engine.
 
-## ⚠️ Disclaimer
-
-MEDFLOW is an educational and hackathon simulation using synthetic/demo patient data.
-
-It is not a clinical decision-making system and should not be used for medical diagnosis, treatment decisions, real patient prioritization, or real hospital resource allocation.
-
 ## 👥 Team
 
 Project: MEDFLOW  
@@ -264,9 +258,5 @@ Hackathon: Hack-a-Matics 2026
 - Predictive patient-arrival modelling
 - Real-time hospital data integration
 - Advanced scheduling strategy comparison
-
-## 📄 License
-
-This project was developed as a hackathon project for educational and demonstration purposes.
 
 [demo]: https://medflow-hrthbuz8rh26bb28uhdhnk.streamlit.app/

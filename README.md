@@ -1,11 +1,11 @@
+[README_MEDFLOW_FINAL.md](https://github.com/user-attachments/files/32431531/README_MEDFLOW_FINAL.md)
 # MEDFLOW — Smart Hospital Resource Management Simulator
 
 > AI-assisted hospital operations, resource allocation, and emergency scheduling simulator.
 
 ## 🚀 Live Demo
 
-**Try MEDFLOW:**
-👉 [Launch the MEDFLOW Simulator](https://medflow-hrthbuz8rh26bb28uhdhnk.streamlit.app/]
+**[Launch the MEDFLOW Simulator][demo]**
 
 The live Streamlit application allows users to interact with the hospital simulation, test different operational scenarios, allocate resources, and analyze hospital performance using the AI Hospital Analyst.
 
@@ -41,35 +41,35 @@ The system can dynamically simulate emergency surges, staff shortages, ICU const
 
 ## 🚀 Key Features
 
-* Priority-based patient queue
-* Urgency and waiting-time aware scheduling
-* General bed and ICU allocation
-* Doctor and nurse resource tracking
-* Emergency surge simulation
-* Staff shortage simulation
-* ICU capacity constraints
-* Patient waiting-time analysis
-* Resource utilization dashboard
-* Discharge and resource release
-* Performance statistics
-* Urgency-only vs MEDFLOW Smart scheduling comparison
-* AI Hospital Analyst
-* **Interactive Streamlit dashboard**
+- Priority-based patient queue
+- Urgency and waiting-time aware scheduling
+- General bed and ICU allocation
+- Doctor and nurse resource tracking
+- Emergency surge simulation
+- Staff shortage simulation
+- ICU capacity constraints
+- Patient waiting-time analysis
+- Resource utilization dashboard
+- Discharge and resource release
+- Performance statistics
+- Urgency-only vs MEDFLOW Smart scheduling comparison
+- AI Hospital Analyst
+- Interactive Streamlit dashboard
 
 ## 🤖 AI Hospital Analyst
 
 MEDFLOW uses the OpenAI API as an AI-assisted operational analysis layer.
 
-The AI receives the current **simulated hospital state**, including waiting patients, urgency, waiting time, resource availability, allocations, staffing constraints, and ICU requirements.
+The AI receives the current simulated hospital state, including waiting patients, urgency, waiting time, resource availability, allocations, staffing constraints, and ICU requirements.
 
 It provides:
 
-* Current operational situation
-* Highest-priority cases
-* Potential bottlenecks
-* Scheduling recommendations
-* Resource-related risks
-* Suggested operational actions
+- Current operational situation
+- Highest-priority cases
+- Potential bottlenecks
+- Scheduling recommendations
+- Resource-related risks
+- Suggested operational actions
 
 ### AI Workflow
 
@@ -129,13 +129,13 @@ Emergency surge + staff shortage + ICU requirements.
 
 ## 🛠️ Technology Stack
 
-| Technology | Purpose                                            |
-| ---------- | -------------------------------------------------- |
-| Python     | Simulation and scheduling logic                    |
-| Streamlit  | Interactive web dashboard and simulation interface |
-| Pandas     | Data handling and analysis                         |
-| OpenAI API | AI-assisted operational analysis                   |
-| GitHub     | Version control                                    |
+| Technology | Purpose |
+|---|---|
+| Python | Simulation and scheduling logic |
+| Streamlit | Interactive web dashboard and simulation interface |
+| Pandas | Data handling and analysis |
+| OpenAI API | AI-assisted operational analysis |
+| GitHub | Version control |
 
 ## 📁 Project Structure
 
@@ -177,22 +177,22 @@ Run the Streamlit application:
 streamlit run app.py
 ```
 
-> **Security:** Never commit your OpenAI API key, `.env` file, or other secrets to GitHub.
+> Security: Never commit your OpenAI API key, `.env` file, or other secrets to GitHub.
 
 ## 🎯 Hackathon Alignment
 
-MEDFLOW addresses the **MEDFLOW — Hospital Resource Management Simulator** challenge from Hack-a-Matics 2026.
+MEDFLOW addresses the MEDFLOW — Hospital Resource Management Simulator challenge from Hack-a-Matics 2026.
 
 The project focuses on:
 
-* Patient prioritization
-* Resource allocation
-* Waiting-time reduction
-* Capacity management
-* Emergency scheduling
-* Staff constraints
-* Resource utilization
-* Operational decision support
+- Patient prioritization
+- Resource allocation
+- Waiting-time reduction
+- Capacity management
+- Emergency scheduling
+- Staff constraints
+- Resource utilization
+- Operational decision support
 
 ## 🌟 What Makes MEDFLOW Different
 
@@ -224,7 +224,7 @@ Instead of presenting hospital scheduling as a static calculation, MEDFLOW lets 
 
 ## 🔬 Example Stress Test
 
-1. Open the **MEDFLOW Live Demo**
+1. Open the MEDFLOW Live Demo
 2. Activate staff shortage
 3. Generate an emergency patient surge
 4. Advance simulation time
@@ -236,7 +236,7 @@ Instead of presenting hospital scheduling as a static calculation, MEDFLOW lets 
 
 ## 🔒 AI Disclosure
 
-MEDFLOW uses the **OpenAI API** for AI-assisted operational analysis of the simulated hospital state.
+MEDFLOW uses the OpenAI API for AI-assisted operational analysis of the simulated hospital state.
 
 The core simulation, priority calculation, resource allocation, scheduling logic, capacity management, and dashboard integration were developed specifically for this hackathon project.
 
@@ -246,25 +246,27 @@ AI is used as an operational analysis and explanation layer rather than as a rep
 
 MEDFLOW is an educational and hackathon simulation using synthetic/demo patient data.
 
-It is **not a clinical decision-making system** and should not be used for medical diagnosis, treatment decisions, real patient prioritization, or real hospital resource allocation.
+It is not a clinical decision-making system and should not be used for medical diagnosis, treatment decisions, real patient prioritization, or real hospital resource allocation.
 
 ## 👥 Team
 
-**Project:** MEDFLOW
-**Hackathon:** Hack-a-Matics 2026
+Project: MEDFLOW  
+Hackathon: Hack-a-Matics 2026
 
 ## 📌 Future Scope
 
-* Multi-department hospital simulation
-* Ambulance arrival prediction
-* Multiple-hospital coordination
-* Resource failure simulation
-* Historical performance analytics
-* Advanced optimization algorithms
-* Predictive patient-arrival modelling
-* Real-time hospital data integration
-* Advanced scheduling strategy comparison
+- Multi-department hospital simulation
+- Ambulance arrival prediction
+- Multiple-hospital coordination
+- Resource failure simulation
+- Historical performance analytics
+- Advanced optimization algorithms
+- Predictive patient-arrival modelling
+- Real-time hospital data integration
+- Advanced scheduling strategy comparison
 
 ## 📄 License
 
 This project was developed as a hackathon project for educational and demonstration purposes.
+
+[demo]: https://medflow-hrthbuz8rh26bb28uhdhnk.streamlit.app/

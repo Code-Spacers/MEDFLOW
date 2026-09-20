@@ -5,7 +5,7 @@
 ## 🚀 Live Demo
 
 **Try MEDFLOW:**
-👉 [https://medflow-hrthbuz8rh26bb28uhdhnk.streamlit.app/?utm_source=chatgpt.com]
+👉 [https://medflow-hrthbuz8rh26bb28uhdhnk.streamlit.app/]
 
 The live Streamlit application allows users to interact with the hospital simulation, test different operational scenarios, allocate resources, and analyze hospital performance using the AI Hospital Analyst.
 
